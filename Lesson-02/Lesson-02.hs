@@ -29,6 +29,7 @@ double n = n * 2
 square :: Num a => a -> a
 square n = n ^ 2
 
+f :: Integral a => a -> a
 f n = if even n
     then n - 2
     else 3 * n + 1
